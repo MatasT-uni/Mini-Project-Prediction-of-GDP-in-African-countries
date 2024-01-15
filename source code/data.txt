@@ -1,0 +1,165 @@
+Actual data 
+columns = ["Country", "GDP", "Percent_Literacy", "Infant_Mortality_Rate", "Life_Expectancy"]
+Nigeria, 3.0, 62.02, 72.24, 53.9, 52.89
+Ethiopia, 7.0, 51.77, 35.37, 48.3, 65.37
+Egypt, 3.9, 73.09, 16.65, 49.6, 70.99
+DR Congo, 3.0, 80.02, 63.79, 47.9, 59.74
+Tanzania, 4.8, 81.80, 34.72, 60.0, 66.41
+South Africa, 5.2, 95.02, 25.78, 55.7, 65.25
+Kenya, 9.3, 82.62, 31.15, 52.5, 62.68
+Uganda, 3.8, 79.00, 31.86,  51.4, 62.85
+Sudan, 4.7, 60.70, 39.92, 32.8, 65.61
+Algeria, 9.0, 81.41, 19.46, 43.2, 74.45
+Morocco, 4.6, 75.93, 16.02, 58.4, 73.92
+Angola, 4.7, 72.28, 48.34, 53.0, 62.26
+Ghana, 3.3, 80.38, 33.02, 58.0, 64.11
+Mozambique, 7.4, 63.42, 52.77, 52.5, 61.17
+Madagascar, 7.6, 77.25, 36.26, 58.9, 65.18
+Côte d'Ivoire, 6.5, 89.89, 55.9, 60.4, 59.03
+Cameroon, 9.9 , 78.23, 48.34, 51.9, 60.83
+Niger, 5.0, 37.34, 45.61, 53.7, 61.45
+Mali, 5.1, 30.76, 58.77, 54.5, 58.63
+Burkina Faso, 5.8, 46.04, 52.82, 56.2, 59.73
+Malawi, 2.1, 67.31, 29.02, 52.8, 63.72
+Zambia, 4.5, 87.50, 41.66, 47.8, 62.38
+Chad, 4.2, 26.76, 67.4, 52.0, 52.78
+Somalia, 5.4, 5.40, 72.72, 2.9, 55.97
+Senegal, 6.8, 56.30, 28.85, 57.7, 68.01
+Zimbabwe, 4.8, 89.70, 37.93, 39.0, 61.12
+Guinea, 7.9, 45.33, 61.99, 44.6, 59.33
+Rwanda, 2.1, 75.90, 30.27, 52.2, 66.77
+Benin, 2.9, 45.84, 56.54, 59.8, 60.09
+Burundi, 5.1, 74.71, 38.64, 41.9, 61.57
+
+
+Linear Regression Predicted Values:
+          Country  Predicted Life Expectancy
+0         Nigeria                  49.354436
+1        Ethiopia                  46.885578
+2           Egypt                  52.957126
+3        DR Congo                  53.210174
+4        Tanzania                  53.767267
+5    South Africa                  56.526558
+6           Kenya                  52.257783
+7          Uganda                  53.695859
+8           Sudan                  49.435486
+9         Algeria                  52.504030
+10        Morocco                  53.265559
+11         Angola                  51.479230
+12          Ghana                  54.132871
+13     Mozambique                  48.501495
+14     Madagascar                  51.700409
+15  Côte d'Ivoire                  54.038310
+16       Cameroon                  50.602433
+17          Niger                  44.478879
+18           Mali                  42.712249
+19   Burkina Faso                  45.669037
+20         Malawi                  52.128820
+21         Zambia                  54.804171
+22           Chad                  41.999679
+23        Somalia                  37.096448
+24        Senegal                  48.073787
+25       Zimbabwe                  55.241415
+26         Guinea                  44.405146
+27         Rwanda                  53.802346
+28          Benin                  46.662570
+29        Burundi                  52.110849
+
+Polynomial Regression Predicted Values:
+          Country  Predicted Life Expectancy
+0         Nigeria                  55.137116
+1        Ethiopia                  48.338092
+2           Egypt                  55.591256
+3        DR Congo                  48.225634
+4        Tanzania                  52.388128
+5    South Africa                  44.920994
+6           Kenya                  50.970157
+7          Uganda                  51.670816
+8           Sudan                  57.380889
+9         Algeria                  48.180346
+10        Morocco                  54.479890
+11         Angola                  56.191501
+12          Ghana                  49.471845
+13     Mozambique                  54.546862
+14     Madagascar                  54.429427
+15  Côte d'Ivoire                  56.625531
+16       Cameroon                  53.870708
+17          Niger                  49.879350
+18           Mali                  44.156455
+19   Burkina Faso                  51.117384
+20         Malawi                  55.314833
+21         Zambia                  49.025752
+22           Chad                  44.604887
+23        Somalia                  13.527344
+24        Senegal                  50.851827
+25       Zimbabwe                  48.393676
+26         Guinea                  42.381610
+27         Rwanda                  49.217679
+28          Benin                  57.083879
+29        Burundi                  55.526133
+
+Exponential Regression Predicted Values:
+          Country  Predicted Life Expectancy
+0         Nigeria                  47.338629
+1        Ethiopia                  46.078451
+2           Egypt                  47.052117
+3        DR Congo                  47.338629
+4        Tanzania                  46.767340
+5    South Africa                  46.641326
+6           Kenya                  45.369096
+7          Uganda                  47.083866
+8           Sudan                  46.798896
+9         Algeria                  45.460998
+10        Morocco                  46.830474
+11         Angola                  46.798896
+12          Ghana                  47.242932
+13     Mozambique                  45.954293
+14     Madagascar                  45.892340
+15  Côte d'Ivoire                  46.234120
+16       Cameroon                  45.185850
+17          Niger                  46.704290
+18           Mali                  46.672797
+19   Burkina Faso                  46.452941
+20         Malawi                  47.626886
+21         Zambia                  46.862074
+22           Chad                  46.956999
+23        Somalia                  46.578446
+24        Senegal                  46.140656
+25       Zimbabwe                  46.767340
+26         Guinea                  45.799566
+27         Rwanda                  47.626886
+28          Benin                  47.370572
+29        Burundi                  46.672797
+
+Quadratic Regression Predicted Values:
+          Country  Predicted Life Expectancy
+0         Nigeria                  55.137116
+1        Ethiopia                  48.338092
+2           Egypt                  55.591256
+3        DR Congo                  48.225634
+4        Tanzania                  52.388128
+5    South Africa                  44.920994
+6           Kenya                  50.970157
+7          Uganda                  51.670816
+8           Sudan                  57.380889
+9         Algeria                  48.180346
+10        Morocco                  54.479890
+11         Angola                  56.191501
+12          Ghana                  49.471845
+13     Mozambique                  54.546862
+14     Madagascar                  54.429427
+15  Côte d'Ivoire                  56.625531
+16       Cameroon                  53.870708
+17          Niger                  49.879350
+18           Mali                  44.156455
+19   Burkina Faso                  51.117384
+20         Malawi                  55.314833
+21         Zambia                  49.025752
+22           Chad                  44.604887
+23        Somalia                  13.527344
+24        Senegal                  50.851827
+25       Zimbabwe                  48.393676
+26         Guinea                  42.381610
+27         Rwanda                  49.217679
+28          Benin                  57.083879
+29        Burundi                  55.526133
