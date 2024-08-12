@@ -63,10 +63,6 @@ To run this project, you will need:
 
 The project provides insights into the economic conditions of African countries by predicting their GDP. The results are visualized through graphs that compare predicted GDP values against the actual data.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contributors
 
 - MatasT-uni - Repository owner and main contributor.
